@@ -24,6 +24,9 @@ SELECT ProductName, UnitPrice FROM Products
 WHERE UnitPrice > (SELECT AVG(UnitPrice) FROM Products)
 ORDER BY UnitPrice;
 
+
+
+--Commit
 -- This query we limit the results to the TOP 5 records
 SELECT TOP 5 
 c.CustomerID, c.CompanyName, 
